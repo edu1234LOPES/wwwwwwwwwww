@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+</head>
+<style>
+    .container {
+    width: 100vw;
+    height: 100vh;
+    background: #3a2336;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+    .box {
+    width: 600px;
+    height: 400px;
+    background: #fff;
+    }
+    body{
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+.link_wrapper{
+  position: relative;
+}
+
+a{
+  display: block;
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  background: #3a2336;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px solid ;
+  
+  transition: all .35s;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+  border: 3px solid transparent;
+  position: absolute;
+  transform: rotate(45deg);
+  right: 0;
+  top: 0;
+  z-index: -1;
+  transition: all .35s;
+}
+
+.icon svg{
+  width: 30px;
+  position: absolute;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
+  transform: rotate(-45deg);
+  fill: #2ecc71;
+  transition: all .35s;
+}
+
+a:hover{
+  width: 200px;
+  border: 3px solid #000000;
+  background: transparent;
+  color: #000000;
+}
+
+a:hover + .icon{
+  border: 3px solid #000000;
+  right: -25%;
+}
+    </style>
+<body>
+  <div class="wrapper">
+    <div class="link_wrapper">
+      <a href="l.html">VOLTAR</a>
+      <div class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+          <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+        </svg>
+      </div>
+    </div>
+    <h1 align="center">
+     localizaçao da empresa
+    </h1>
+<div class="container">
+   
+<div class="box">
+    <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.376046659295!2d-48.10496399999999!3d-15.889358199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935bd2eb57b227d1%3A0x814025b25fe0c888!2sQr%20313%20Conjunto%2014%20-%20QR%20313%20-%20Samambaia%20Sul%2C%20Bras%C3%ADlia%20-%20DF%2C%2072307-300!5e0!3m2!1spt-BR!2sbr!4v1686860603831!5m2!1spt-BR!2sbr"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+<font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><table width="467" border="1px" align="center"></font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+    <tr></font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+    <!-- Podemos alterar a cor de somente um campo da tabela --></font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <td width="101" height="40" bgcolor="#666666">Nome</td></font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <td width="113">Telefone</td></font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <td width="140">Endereço</td></font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <!-- também é possível alterar somente a cor da borda de um campo específico --></font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <td width="85" bordercolor="#FF0000">Cep</td></font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+    </tr></font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+    <tr></font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <td height="40">Ricardo</td></font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <td>(21) 9999-9999</td></font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <td>Rua Dois, casa 3.</td></font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <td>99999-999</td></font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+    </tr></font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  </table></font></font><font></font>
+  
+
+</html>
